@@ -1,14 +1,5 @@
-import java.io.*;
-import java.util.Scanner;
-
-class CFG {
-	public static void main(String[] args)
-	{
-		int num;
-		System.out.println("Enter the integer: ");
-		Scanner s = new Scanner(System.in);
-		num = s.nextInt();
-		System.out.println("Entered integer is: "
-						+ num);
-	}
+public class hello {
+    public static void main(String[] args) {
+        System.out.println("Hello world..!!!");
+    }
 }
