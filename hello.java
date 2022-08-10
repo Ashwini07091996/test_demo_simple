@@ -1,13 +1,27 @@
-public static void main(String[] args) {
-    
-    System.out.println("Enter two numbers");
-    int first = 10;
-    int second = 20;
-    
-    System.out.println(first + " " + second);
+// Java program to take an integer
+// as input and print it
 
-    // add two numbers
-    int sum = first + second;
-    System.out.println("The sum is: " + sum);
-  }
+import java.io.*;
+import java.util.Scanner;
 
+class GFG {
+	public static void main(String[] args)
+	{
+
+		// Declare the variables
+		int num;
+
+		// Input the integer
+		System.out.println("Enter the integer: ");
+
+		// Create Scanner object
+		Scanner s = new Scanner(System.in);
+
+		// Read the next integer from the screen
+		num = s.nextInt();
+
+		// Display the integer
+		System.out.println("Entered integer is: "
+						+ num);
+	}
+}
