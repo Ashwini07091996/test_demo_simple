@@ -1,6 +1,4 @@
-class Main {
-
-  public static void main(String[] args) {
+public static void main(String[] args) {
     
     System.out.println("Enter two numbers");
     int first = 10;
@@ -12,4 +10,4 @@ class Main {
     int sum = first + second;
     System.out.println("The sum is: " + sum);
   }
-}
+
